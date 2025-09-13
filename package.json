@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tailwind:init": "tailwindcss init -p"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.9.0",
+    "@prisma/client": "^6.15.0",
+    "bcrypt": "^6.0.0",
+    "eslint": "^9.34.0",
+    "jose": "^6.1.0",
+    "openai": "^5.20.1",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/bcrypt": "^6.0.0",
+    "@types/node": "^24.3.0",
+    "autoprefixer": "^10.4.21",
+    "nuxt": "^4.0.3",
+    "postcss": "^8.5.6",
+    "prisma": "^6.15.0",
+    "tailwindcss": "^4.1.12"
+  },
+  "version": "1.0.0",
+  "description": "Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
